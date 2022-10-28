@@ -1,20 +1,21 @@
 @import "./base/base";
+@import "./base/container";
+@import "./base/portfolio-section";
+@import "./base/section";
+
 @import "./components/btn";
-@import "./components/container";
-@import "./components/portfolio-section";
-@import "./components/section";
 @import "./components/modal";
 
 @import "./utils/variables";
 @import "./utils/hidden";
 
-@import "./header";
-@import "./hero";
-@import "./peculiarities";
-@import "./occupation";
-@import "./team";
-@import "./clients";
-@import "./footer";
+@import "./layouts/header";
+@import "./layouts/hero";
+@import "./layouts/peculiarities";
+@import "./layouts/occupation";
+@import "./layouts/team";
+@import "./layouts/clients";
+@import "./layouts/footer";
 
-@import "./portfolio-filters";
-@import "./portfolio-cards";
+@import "./layouts/portfolio-filters";
+@import "./layouts/portfolio-cards";
